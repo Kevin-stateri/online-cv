@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin Da Costa Stateri — Junior Developer</title>
+  <meta name="description" content="CV of Kevin Da Costa Stateri, Junior Developer (Python, PHP, REST APIs, payment integrations). BSc Computer Science 2:1. Right to work in the UK.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="nav no-print">
+    <a class="brand" href="#top" aria-label="Kevin Da Costa Stateri"><span>KS</span></a>
+    <nav aria-label="Sections">
+      <a href="#profile">Profile</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary" id="pdfBtn" href="/api/cv.pdf" download>⬇ Download PDF</a>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow" id="location"></p>
+          <h1 id="name">Kevin Da Costa Stateri</h1>
+          <p class="role"><span id="title"></span> <span class="dot">•</span> <span id="tagline"></span></p>
+          <p class="lead" id="heroProfile"></p>
+          <div class="badges" id="badges"></div>
+          <div class="cta no-print">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-ghost" href="/api/cv.pdf" download>Download CV (PDF)</a>
+          </div>
+          <ul class="contact-list" id="contactList"></ul>
+        </div>
+        <img class="hero-art no-print" src="/assets/hero.svg" alt="Illustration of an API request, code editor and payment integrations">
+      </div>
+    </section>
+
+    <section class="stats"><div class="container stat-grid" id="stats"></div></section>
+
+    <section id="profile" class="container sec">
+      <h2>Professional Profile</h2>
+      <p class="profile-text" id="profileText"></p>
+    </section>
+
+    <section id="experience" class="container sec">
+      <h2>Professional Experience</h2>
+      <div class="timeline" id="experienceList"></div>
+    </section>
+
+    <section id="skills" class="container sec">
+      <h2>Technical Skills</h2>
+      <div class="skill-grid" id="skillList"></div>
+    </section>
+
+    <section id="projects" class="container sec">
+      <h2>Projects</h2>
+      <div class="card-grid" id="projectList"></div>
+    </section>
+
+    <section id="education" class="container sec">
+      <h2>Education &amp; Languages</h2>
+      <div class="two-col">
+        <div id="educationList"></div>
+        <div id="languageList"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact no-print">
+      <div class="container contact-grid">
+        <div>
+          <h2>Let’s talk</h2>
+          <p>Looking for a remote engineering role. Send a message and Kevin will reply by email.</p>
+          <p class="muted" id="contactEmail"></p>
+        </div>
+        <form id="contactForm" novalidate>
+          <label>Name <input name="name" autocomplete="name" required maxlength="100"><small data-err="name"></small></label>
+          <label>Email <input name="email" type="email" autocomplete="email" required maxlength="200"><small data-err="email"></small></label>
+          <label>Message <textarea name="message" rows="5" required maxlength="2000"></textarea><small data-err="message"></small></label>
+          <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer no-print"><div class="container">© <span id="year"></span> Kevin Da Costa Stateri · Built with Node.js, vanilla JS &amp; CSS</div></footer>
+  <script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#6366f1"/></linearGradient>
+    <linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+  </defs>
+  <circle cx="300" cy="260" r="230" fill="url(#g)" opacity=".12"/>
+  <circle cx="300" cy="260" r="160" stroke="url(#g)" stroke-width="2" stroke-dasharray="4 10" opacity=".6"/>
+  <rect x="90" y="110" width="420" height="270" rx="16" fill="url(#w)" stroke="#334155"/>
+  <circle cx="116" cy="136" r="6" fill="#f87171"/><circle cx="136" cy="136" r="6" fill="#fbbf24"/><circle cx="156" cy="136" r="6" fill="#34d399"/>
+  <path d="M90 158h420" stroke="#334155"/>
+  <g font-family="ui-monospace,Menlo,monospace" font-size="15">
+    <text x="116" y="192" fill="#64748b">POST /api/payments</text>
+    <text x="116" y="222" fill="#2dd4bf">Authorization: Bearer ••••</text>
+    <text x="116" y="252" fill="#a5b4fc">{ "gateway": "opayo", "v": 4 }</text>
+    <text x="116" y="292" fill="#34d399">← 200 OK  validated ✓</text>
+    <text x="116" y="322" fill="#64748b">// openapi: 3.0 · swagger</text>
+    <text x="116" y="352" fill="#fbbf24">git push origin main</text>
+  </g>
+  <g>
+    <rect x="400" y="60" width="140" height="56" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="418" y="85" font-family="system-ui" font-size="12" fill="#64748b">Python · Flask</text>
+    <text x="418" y="104" font-family="system-ui" font-size="14" font-weight="700" fill="#0f172a">REST APIs</text>
+    <rect x="50" y="390" width="160" height="56" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="68" y="415" font-family="system-ui" font-size="12" fill="#64748b">PHP 8 · MySQL</text>
+    <text x="68" y="434" font-family="system-ui" font-size="14" font-weight="700" fill="#0f172a">E-commerce</text>
+    <rect x="380" y="372" width="170" height="56" rx="12" fill="#fff" stroke="#e2e8f0"/>
+    <text x="398" y="397" font-family="system-ui" font-size="12" fill="#64748b">Worldpay · Opayo</text>
+    <text x="398" y="416" font-family="system-ui" font-size="14" font-weight="700" fill="#0f172a">Payments</text>
+  </g>
+</svg>

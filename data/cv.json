@@ -1,26 +1,90 @@
 {
-  "name": "Kevin Da Costa Stateri",
+  "name": "Kevin da Costa Stateri",
   "title": "Junior Developer",
   "tagline": "Python, REST APIs, PHP & Payment Integrations",
   "location": "Coalville, Leicestershire",
   "email": "kevin.stateri@gmail.com",
   "phone": "07853 314777",
   "linkedin": "https://www.linkedin.com/in/kevin-stateri",
+  "github": "https://github.com/kevin-stateri",
   "rightToWork": "Right to work in the UK: Yes (EU Settled Status)",
+  "photo": "",
   "profile": "Junior Developer with commercial backend experience since January 2025 and a BSc in Computer Science (2:1). Builds and maintains server-side features for e-commerce systems, including legacy platform migrations and payment gateway integrations (Worldpay, SagePay/Opayo), working from provider specifications and documenting APIs with OpenAPI/Swagger. Python (Flask) experience from academic projects includes a Bearer-token-authenticated REST API and a machine learning model. Returning to Leicestershire and looking for a remote engineering role.",
   "highlights": [
-    { "value": "2:1", "label": "BSc Computer Science" },
-    { "value": "2025", "label": "Commercial backend since" },
-    { "value": "2", "label": "Payment gateways integrated" },
-    { "value": "1.5→3.0", "label": "Platform migrations" }
+    {
+      "value": "2:1",
+      "label": "BSc Computer Science"
+    },
+    {
+      "value": "2025",
+      "label": "Commercial backend since"
+    },
+    {
+      "value": "2",
+      "label": "Payment gateways integrated"
+    },
+    {
+      "value": "1.5→3.0",
+      "label": "Platform migrations"
+    }
   ],
   "skills": [
-    { "group": "Languages", "items": ["Python (Flask)", "PHP 8+", "JavaScript", "jQuery", "Java", "HTML5", "CSS/SCSS"] },
-    { "group": "Backend & APIs", "items": ["REST API design", "OpenAPI/Swagger", "Postman", "Bearer token authentication", "OOP", "MVC architecture", "Twig"] },
-    { "group": "Data & Storage", "items": ["MySQL", "OpenCart data structures (products, orders, customers)"] },
-    { "group": "Infrastructure & Tools", "items": ["Linux", "Git (code review, deployments)", "Docker (basic)", "Composer"] },
-    { "group": "Payments & Integrations", "items": ["Worldpay hosted payment pages", "SagePay/Opayo", "Amazon API"] },
-    { "group": "Security & Compliance", "items": ["Secure request handling", "Transaction response validation", "GDPR compliance"] }
+    {
+      "group": "Languages",
+      "items": [
+        "PHP 8+",
+        "JavaScript",
+        "Python (Flask)",
+        "jQuery",
+        "Java",
+        "HTML5",
+        "CSS/SCSS"
+      ]
+    },
+    {
+      "group": "Backend & APIs",
+      "items": [
+        "REST API design",
+        "OpenAPI/Swagger",
+        "Postman",
+        "Bearer token authentication",
+        "OOP",
+        "MVC architecture",
+        "Twig"
+      ]
+    },
+    {
+      "group": "Data & Storage",
+      "items": [
+        "MySQL",
+        "OpenCart data structures (products, orders, customers)"
+      ]
+    },
+    {
+      "group": "Infrastructure & Tools",
+      "items": [
+        "Linux",
+        "Git (code review, deployments)",
+        "Docker (basic)",
+        "Composer"
+      ]
+    },
+    {
+      "group": "Payments & Integrations",
+      "items": [
+        "Worldpay hosted payment pages",
+        "SagePay/Opayo",
+        "Amazon API"
+      ]
+    },
+    {
+      "group": "Security & Compliance",
+      "items": [
+        "Secure request handling",
+        "Transaction response validation",
+        "GDPR compliance"
+      ]
+    }
   ],
   "experience": [
     {
@@ -40,17 +104,97 @@
     }
   ],
   "projects": [
-    { "name": "RESTful Web API Platform", "stack": ["Python", "Flask"], "description": "Developed a REST API with Bearer token authentication, documenting endpoints in OpenAPI/Swagger to streamline testing." },
-    { "name": "Carbon Emissions Modelling System", "stack": ["Python", "Machine Learning"], "description": "Built a machine learning model that processes environmental datasets to predict future carbon emission trends." },
-    { "name": "Amazon API Integration Platform", "stack": ["PHP 8", "Composer", "OOP"], "description": "Built an OOP application using Composer to retrieve and process product data from the Amazon API, with structured data handling and automated workflows." }
+    {
+      "name": "RESTful Web API Platform",
+      "stack": [
+        "Python",
+        "Flask"
+      ],
+      "description": "Developed a REST API with Bearer token authentication, documenting endpoints in OpenAPI/Swagger to streamline testing.",
+      "link": ""
+    },
+    {
+      "name": "Carbon Emissions Modelling System",
+      "stack": [
+        "Python",
+        "Machine Learning"
+      ],
+      "description": "Built a machine learning model that processes environmental datasets to predict future carbon emission trends.",
+      "link": ""
+    },
+    {
+      "name": "Amazon API Integration Platform",
+      "stack": [
+        "PHP 8",
+        "Composer",
+        "OOP"
+      ],
+      "description": "Built an OOP application using Composer to retrieve and process product data from the Amazon API, with structured data handling and automated workflows.",
+      "link": ""
+    }
   ],
   "education": [
-    { "title": "BSc Computer Science (2:1)", "institution": "Coventry University", "year": "2024" },
-    { "title": "Pearson BTEC Level 3 Extended Diploma in IT", "institution": "West Herts College", "year": "2020" },
-    { "title": "GCSE Mathematics — Grade 8", "institution": "", "year": "" }
+    {
+      "title": "BSc Computer Science (2:1)",
+      "institution": "Coventry University",
+      "year": "2024"
+    },
+    {
+      "title": "Pearson BTEC Level 3 Extended Diploma in IT",
+      "institution": "West Herts College",
+      "year": "2020"
+    },
+    {
+      "title": "GCSE Mathematics — Grade 8",
+      "institution": "",
+      "year": ""
+    }
   ],
   "languages": [
-    { "name": "Portuguese", "level": "Native" },
-    { "name": "English", "level": "Fluent" }
-  ]
+    {
+      "name": "Portuguese",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Fluent"
+    }
+  ],
+  "customSections": [],
+  "layout": [
+    {
+      "id": "profile",
+      "visible": true,
+      "title": ""
+    },
+    {
+      "id": "experience",
+      "visible": true,
+      "title": ""
+    },
+    {
+      "id": "skills",
+      "visible": true,
+      "title": ""
+    },
+    {
+      "id": "projects",
+      "visible": true,
+      "title": ""
+    },
+    {
+      "id": "education",
+      "visible": true,
+      "title": ""
+    },
+    {
+      "id": "languages",
+      "visible": true,
+      "title": ""
+    }
+  ],
+  "settings": {
+    "showHighlights": true,
+    "photoInPdf": false
+  }
 }

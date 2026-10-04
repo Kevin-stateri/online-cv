@@ -11,10 +11,7 @@
 <body>
   <header class="nav no-print">
     <a class="brand" href="#top" aria-label="Kevin Da Costa Stateri"><span>KS</span></a>
-    <nav aria-label="Sections">
-      <a href="#profile">Profile</a><a href="#experience">Experience</a><a href="#skills">Skills</a>
-      <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
-    </nav>
+    <nav aria-label="Sections" id="nav"></nav>
     <a class="btn btn-primary" id="pdfBtn" href="/api/cv.pdf" download>⬇ Download PDF</a>
   </header>
 
@@ -22,6 +19,7 @@
     <section class="hero">
       <div class="container hero-grid">
         <div>
+          <img class="avatar" id="avatar" alt="" hidden>
           <p class="eyebrow" id="location"></p>
           <h1 id="name">Kevin Da Costa Stateri</h1>
           <p class="role"><span id="title"></span> <span class="dot">•</span> <span id="tagline"></span></p>
@@ -39,33 +37,7 @@
 
     <section class="stats"><div class="container stat-grid" id="stats"></div></section>
 
-    <section id="profile" class="container sec">
-      <h2>Professional Profile</h2>
-      <p class="profile-text" id="profileText"></p>
-    </section>
-
-    <section id="experience" class="container sec">
-      <h2>Professional Experience</h2>
-      <div class="timeline" id="experienceList"></div>
-    </section>
-
-    <section id="skills" class="container sec">
-      <h2>Technical Skills</h2>
-      <div class="skill-grid" id="skillList"></div>
-    </section>
-
-    <section id="projects" class="container sec">
-      <h2>Projects</h2>
-      <div class="card-grid" id="projectList"></div>
-    </section>
-
-    <section id="education" class="container sec">
-      <h2>Education &amp; Languages</h2>
-      <div class="two-col">
-        <div id="educationList"></div>
-        <div id="languageList"></div>
-      </div>
-    </section>
+    <div id="sections"></div>
 
     <section id="contact" class="contact no-print">
       <div class="container contact-grid">

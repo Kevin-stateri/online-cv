@@ -87,3 +87,17 @@ small{color:#fca5a5;min-height:1em}.hp{position:absolute;left:-9999px}
   .edu,.lang{border:0;border-radius:0;padding:0 0 4pt;margin:0 0 4pt;background:none}
   a{color:#000}
 }
+
+/* ---- additions: avatar, generic sections ---- */
+.avatar{width:112px;height:112px;border-radius:50%;object-fit:cover;border:3px solid var(--teal-l);margin-bottom:16px;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.avatar[hidden]{display:none}
+.lang-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.lang-list .lang{margin:0}
+.plain-list{margin:0;padding-left:20px;color:#334155}.plain-list li{margin:6px 0}
+.entry-text{margin:6px 0;color:#334155}.more{margin:8px 0 0;font-size:.9rem;word-break:break-all}
+.timeline>.job+.job{margin-top:16px}
+@media print{
+  .avatar{width:70pt;height:70pt;border-width:1pt;box-shadow:none}
+  .lang-list{display:block}.plain-list{color:#000}.entry-text{color:#000}.timeline>.job+.job{margin-top:6pt}
+}
+.nav nav a{white-space:nowrap}
+@media(max-width:1000px){.nav nav{display:none}.nav .btn{margin-left:auto}}

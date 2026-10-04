@@ -1,13 +1,16 @@
 {
   "name": "kevin-stateri-cv",
   "version": "1.0.0",
-  "description": "Personal CV website for Kevin Da Costa Stateri — Node.js API + static front-end with PDF export",
+  "description": "Personal CV website for Kevin Da Costa Stateri \u2014 Node.js API + static front-end with PDF export",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node --watch server.js",
-    "test": "node --test"
+    "test": "node --test",
+    "setup-admin": "node scripts/setup-admin.js"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "license": "MIT"
 }
